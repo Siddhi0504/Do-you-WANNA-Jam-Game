@@ -1,3 +1,5 @@
+class_name GameMenus
+
 extends Node
 
 var musicVolume = 1

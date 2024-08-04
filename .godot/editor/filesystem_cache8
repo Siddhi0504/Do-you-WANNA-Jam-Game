@@ -1,7 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722786242
+::res://::1722805373
 default_env.tres::Environment::-1::1722708363::0::1::::<><>::
-icon.png::CompressedTexture2D::3114739301584119084::1722708316::1722786243::1::::<><>::
-::res://Scenes/::1722708363
-Game.tscn::PackedScene::-1::1722708363::0::1::::<><>::
+icon.png::CompressedTexture2D::3114739301584119084::1722708316::1722790937::1::::<><>::
+::res://Scenes/::1722805933
+Game.gd::GDScript::-1::1722805199::0::1::::GameMenus<>Node<>::
+Game.tscn::PackedScene::1062677158806339737::1722805933::0::1::::<><>::res://Scenes/Game.gd<>res://Scenes/Player.gd
+Player.gd::GDScript::-1::1722806053::0::1::::Player<>Node2D<>::
 ::res://Scripts/::1722708361

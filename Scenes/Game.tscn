@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://pe1exaej6xfl"]
+[gd_scene load_steps=3 format=3 uid="uid://pe1exaej6xfl"]
 
 [ext_resource type="Script" path="res://Scenes/Game.gd" id="1_pcym8"]
+[ext_resource type="Script" path="res://Scenes/Player.gd" id="2_4kcap"]
 
 [node name="Scenes" type="Node"]
 script = ExtResource("1_pcym8")
@@ -101,6 +102,9 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="PlayingGameCanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Player" type="Sprite2D" parent="PlayingGameCanvasLayer"]
+script = ExtResource("2_4kcap")
 
 [node name="HowToPlayCanvasLayer" type="CanvasLayer" parent="."]
 
